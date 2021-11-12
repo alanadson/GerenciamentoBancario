@@ -55,6 +55,6 @@ while (num != 5):
         quero_sacar = float(input('Digite a quantidade que quer sacar: '))
         conta_do_alan.sacar(quero_sacar)
         print(conta_do_alan.consulta_saldo())
-
+ 
     elif num == 5:
         print('Programada finalizado...')
